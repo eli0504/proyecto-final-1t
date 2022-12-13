@@ -6,7 +6,7 @@ public class BallMovement : MonoBehaviour
 {
     private float verticalInput;
     private float horizontalInput;
-    public float turnspeed = 5f;
+    private float turnspeed = 5f;  //player speed
 
     private void Update()
     {
